@@ -11,7 +11,7 @@ import SwiftUI
 struct MoexcalculatorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CalculatorView(viewModel: CalculatorViewModel())
         }
     }
 }
